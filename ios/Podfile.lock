@@ -1,0 +1,40 @@
+PODS:
+  - bitmap (0.0.1):
+    - Flutter
+  - contacts_service (0.2.2):
+    - Flutter
+  - Flutter (1.0.0)
+  - flutter_contacts (0.0.1):
+    - Flutter
+  - phone_state (1.0.2):
+    - Flutter
+
+DEPENDENCIES:
+  - bitmap (from `.symlinks/plugins/bitmap/ios`)
+  - contacts_service (from `.symlinks/plugins/contacts_service/ios`)
+  - Flutter (from `Flutter`)
+  - flutter_contacts (from `.symlinks/plugins/flutter_contacts/ios`)
+  - phone_state (from `.symlinks/plugins/phone_state/ios`)
+
+EXTERNAL SOURCES:
+  bitmap:
+    :path: ".symlinks/plugins/bitmap/ios"
+  contacts_service:
+    :path: ".symlinks/plugins/contacts_service/ios"
+  Flutter:
+    :path: Flutter
+  flutter_contacts:
+    :path: ".symlinks/plugins/flutter_contacts/ios"
+  phone_state:
+    :path: ".symlinks/plugins/phone_state/ios"
+
+SPEC CHECKSUMS:
+  bitmap: 591b0556efe6e811a263b8dfdc511fe1faa72315
+  contacts_service: 849e1f84281804c8bfbec1b4c3eedcb23c5d3eca
+  Flutter: f04841e97a9d0b0a8025694d0796dd46242b2854
+  flutter_contacts: edb1c5ce76aa433e20e6cb14c615f4c0b66e0983
+  phone_state: a32989709fb2a95f342877a7966402df058a9519
+
+PODFILE CHECKSUM: cc1f88378b4bfcf93a6ce00d2c587857c6008d3b
+
+COCOAPODS: 1.11.3
