@@ -1,0 +1,133 @@
+{
+  "_note1": "KEEP THIS FILE! Check it into a version control system (VCS) like git.",
+  "_note2": "ObjectBox manages crucial IDs for your object model. See docs for details.",
+  "_note3": "If you have VCS merge conflicts, you must resolve them according to ObjectBox docs.",
+  "entities": [
+    {
+      "id": "3:1727936677742872219",
+      "lastPropertyId": "12:4973208751327032791",
+      "name": "Contacts",
+      "properties": [
+        {
+          "id": "1:3380742898994436144",
+          "name": "id",
+          "type": 6,
+          "flags": 1
+        },
+        {
+          "id": "2:4717072580556114101",
+          "name": "displayName",
+          "type": 9
+        },
+        {
+          "id": "3:5627839474230907232",
+          "name": "first",
+          "type": 9
+        },
+        {
+          "id": "4:6386126059746338561",
+          "name": "last",
+          "type": 9
+        },
+        {
+          "id": "5:1640215053660004952",
+          "name": "middle",
+          "type": 9
+        },
+        {
+          "id": "6:6995854688765561511",
+          "name": "prefix",
+          "type": 9
+        },
+        {
+          "id": "7:2703672323105277615",
+          "name": "suffix",
+          "type": 9
+        },
+        {
+          "id": "8:4254871111500107952",
+          "name": "nickname",
+          "type": 9
+        },
+        {
+          "id": "9:1415365006345337762",
+          "name": "firstPhonetic",
+          "type": 9
+        },
+        {
+          "id": "10:8262378951853951051",
+          "name": "lastPhonetic",
+          "type": 9
+        },
+        {
+          "id": "11:8125259830218338452",
+          "name": "middlePhonetic",
+          "type": 9
+        },
+        {
+          "id": "12:4973208751327032791",
+          "name": "contactId",
+          "type": 9
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "4:8127421415096961807",
+      "lastPropertyId": "4:5123526295220148780",
+      "name": "Phones",
+      "properties": [
+        {
+          "id": "1:8780563081883103755",
+          "name": "id",
+          "type": 6,
+          "flags": 1
+        },
+        {
+          "id": "2:7204646410123411268",
+          "name": "number",
+          "type": 9
+        },
+        {
+          "id": "3:3451933970343674553",
+          "name": "normalizedNumber",
+          "type": 9
+        },
+        {
+          "id": "4:5123526295220148780",
+          "name": "contactId",
+          "type": 11,
+          "flags": 520,
+          "indexId": "2:4995552221102299448",
+          "relationTarget": "Contacts"
+        }
+      ],
+      "relations": []
+    }
+  ],
+  "lastEntityId": "4:8127421415096961807",
+  "lastIndexId": "2:4995552221102299448",
+  "lastRelationId": "1:3778268073895882590",
+  "lastSequenceId": "0:0",
+  "modelVersion": 5,
+  "modelVersionParserMinimum": 5,
+  "retiredEntityUids": [
+    3984617627706390229,
+    9079788017308511159
+  ],
+  "retiredIndexUids": [],
+  "retiredPropertyUids": [
+    1581737810743175214,
+    6890478071178325785,
+    3212997398305207347,
+    6049915012719472761,
+    5430191852937758860,
+    2757420993700087973,
+    8392253706418124506,
+    3826528985981835772
+  ],
+  "retiredRelationUids": [
+    3778268073895882590
+  ],
+  "version": 1
+}
